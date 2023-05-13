@@ -1,0 +1,41 @@
+.OutputFrame
+{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif
+}
+
+.InputFrame
+{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif
+}
+
+.MainFrame
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.OutputTable
+{
+    table-layout: fixed;
+    width: 1400px;
+    border-spacing: 0px;
+    background-color: white;
+}
+.OutputTableBody
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+table > tr > td
+{
+    border: 1px solid black;
+
+}
